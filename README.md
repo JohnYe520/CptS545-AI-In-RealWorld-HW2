@@ -43,21 +43,27 @@ pip install torchcp
 # Step 1: Run the main script
 python main.py
 ```
+
+```text
 This will:
     - Train all models
     - Evaluate all UQ methods
     - Generate: results/results.json
+```
 
 ```bash
 # Step 2: Generate result table
 python result_table.py
 ```
+
+```text
 This script reads results.json and prints:
     - Accuracy
     - ECE
     - NLL
     - Conformal coverage
     - Conformal set size
+```
 
 ## Result 
 Final results are stored in:
